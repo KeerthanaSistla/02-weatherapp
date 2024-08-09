@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: rgb(255, 237, 244);
+}
+
+header{
+      background-color: rgb(255, 75, 114);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 1rem;
+      justify-content: center;
+      color: rgb(255, 237, 244);
+      font-size: 4.5vmin;
+      font-family: Cambria, Cochin, Georgia, Times, serif;
+      width: 100%;
+      font-weight: 550;
+  }
+
+.p2{
+    display: none;
+}
+
+.main-area{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 2vmin;
+    padding: 20vmin;
+    text-align: center;
+}
+
+#enter_loc{
+    font-size: 7.5vmin;
+    margin: 0.5;
+    color: rgb(255, 75, 114);
+    letter-spacing: 0.5vmin;
+}
+
+.location{
+    width: 70vmin;
+    padding: 0.5vmin;
+    margin-top: 3vmin;
+    margin-bottom: 2vmin;
+}
+
+.location input{
+    width: 65vmin;
+    height: 5vmin;
+    outline: none;
+    padding-left: 1.5vmin;
+    margin: 0.5vmin;
+    border: 0.2vmin solid rgba(255, 75, 115, 0.5);
+    border-radius: 0.25rem;
+    font-size: 3vmin;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+}
+
+.location #or{
+    height: 0.2vmin;
+    width: 65vmin;
+    margin: 2vmin;
+    background-color: rgba(255, 75, 115, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location #or::before{
+    content: "or";
+    color: rgb(255, 75, 114);
+    font-size: 1.18rem;
+    padding: 0 15px;
+    margin-top: -4px;
+    background-color:  rgb(255, 237, 244);
+  }
+
+.location button{
+    width: 68vmin;
+    padding: 1vmin;
+    margin: 1vmin;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: rgb(255, 237, 244);
+    background-color: rgb(255, 75, 114);
+    transition: 0.2s ease;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+}
+
+.location #search:hover {
+  background-color: rgba(255, 75, 115, 0.25);
+    color: rgb(71, 34, 50);
+}
+
+.location .loc_btn:hover {
+  background-color: rgba(255, 75, 115, 0.25);
+    color: rgb(71, 34, 50);
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+
+main .data{
+  color: rgb(71, 34, 50);
+  background-color: rgba(255, 75, 115, 0.25);
+  border-radius: 1rem;
+  padding: 10vmin;
+  margin: 5vmin;
+  font-size: 5vmin;
+  height: 55vmin;
+  width: 200vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+.data h2 {
+  font-size: 5.5vmin;
+  font-weight: bolder;
+}
+
+.data h5{
+  font-size: 5vmin;
+  font-weight: 300;
+}
+
+.data .icon {
+  text-align: center;
+}
+
+.data .icon img {
+  width: 25vmin;
+  margin-top: -15px;
+}
+
+.data .icon h6 {
+  margin-top: -30px;
+  text-transform: capitalize;
+}
+
+.home{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+
+#reset{
+  width: 40vmin;
+  height: 10vmin;
+  padding: 1vmin;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 5vmin;
+  font-size: 3vmin;
+  cursor: pointer;
+  color: rgb(255, 237, 244);
+  background-color: rgb(255, 75, 114);
+  transition: 0.5s ease;
+}
+
+#reset:hover{
+  background-color: rgba(255, 75, 115, 0.25);
+  color: rgb(71, 34, 50);
+}
+
+hr{
+  display: block;
+  width: 100%;
+  border: 0.5px solid rgb(255, 75, 114);
+  margin: 0.25px;
+}
+
+footer{
+  text-align: left;
+  bottom: 1px;
+}
+
+@media (max-height: 600px) {
+  footer{
+      text-align: left;
+      position: relative;
+      bottom: 1px;
+  }
+}
+
+a{
+  color: rgb(71, 34, 50);
+  text-decoration: none;
+  font-weight: 500;
+}
